@@ -1,0 +1,33 @@
+{
+  "title": "設計の勉強",
+  "closed": false,
+  "archived": false,
+  "created_at": "2021-09-26",
+  "comments": [
+    {
+      "author": "pei89",
+      "created_at": "2021-09-26",
+      "body_markdown": "## 気になった設計に関する言葉\n\n- オブジェクト指向とは？\n- コンポーネント指向とは？\n- プログラミング言語の設計\n- SOLID原則"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-09-26",
+      "body_markdown": "コンポーネント指向について\nhttps://qiita.com/fuga___/items/04cde741d52dd2a2632c\nフロントエンドのコンポーネント設計に立ち向か\nhttps://qiita.com/seya/items/8814e905693f00cdade2\n\nコンポーネントは\n\"Containerコンポーネント\" と \"Presentational\"コンポーネント\nに分けて考える\n"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-09-26",
+      "body_markdown": "分割統治法\n\n分割統治法とは、大きな問題を小さく分割して解決していく手法です。ソフトウェア開発においては、大きなソフトウェアを一気に作るのではなく、できるだけ分割して、影響の範囲を限定し、一つ一つ完成させていく方法\n\nhttps://www.i3design.jp/in-pocket/8854#React%E3%81%AF%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E6%8C%87%E5%90%91%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA\n\nカプセル化\n\n"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-11-11",
+      "body_markdown": "https://zenn.dev/koki_tech/articles/361bb8f2278764\n\nSRP(Simple Responsibility Principle)がわかりやすい。"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-11-13",
+      "body_markdown": "https://note.com/tabelog_frontend/n/n07b4077f5cf3\n\nAtomicデザイン関連"
+    }
+  ]
+}

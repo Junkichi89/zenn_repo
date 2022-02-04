@@ -1,0 +1,18 @@
+{
+  "title": "Package管理について",
+  "closed": false,
+  "archived": false,
+  "created_at": "2022-01-23",
+  "comments": [
+    {
+      "author": "pei89",
+      "created_at": "2022-01-23",
+      "body_markdown": "Voltaをずっと使ってきてたけど、\ndefaultの設定の仕方がわからんかったけど、\n`volta install ~`でdefaultに設定してくれるんやな。\nまた勉強になった〜\n\nhttps://blog1.mammb.com/entry/2021/11/01/090000"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2022-01-23",
+      "body_markdown": "yarn.lockとpackage-lock.jsonを同じプロジェクトで入れるのってあかんのやよな？\n根拠を見つけたい・・・"
+    }
+  ]
+}

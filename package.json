@@ -1,0 +1,23 @@
+{
+  "name": "zenn_repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junkichi89/zenn_repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Junkichi89/zenn_repo/issues"
+  },
+  "homepage": "https://github.com/Junkichi89/zenn_repo#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.106"
+  }
+}

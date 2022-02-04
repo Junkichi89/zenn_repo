@@ -1,0 +1,114 @@
+{
+  "title": "Next React Recoil Firebase",
+  "closed": false,
+  "archived": false,
+  "created_at": "2021-10-08",
+  "comments": [
+    {
+      "author": "pei89",
+      "created_at": "2021-10-08",
+      "body_markdown": "Recoil導入でディレクトリ構成に迷ったので、検索\n\nhttps://qiita.com/tkmd35/items/b4630e53a907d96e3430\n\nhttps://nasubifx.hatenablog.com/entry/2020/06/10/034733"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-09",
+      "body_markdown": "useRecoilStateとuseSetRecoilStateの違いをちゃんと理解しておきたい。\nコンポーネントをサブスクライブするかしないか？\nグローバルでの変更に影響を受ける？\nローカルでの変更のみ？\n\n使って調べてみようかな\n\nhttps://recoiljs.org/docs/api-reference/core/useRecoilState"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-16",
+      "body_markdown": "firestoreの連携について\nSSとCSRで設定が違う.\nセキュリティのことなどを考えるとSSRにしたいが、勉強なので、\n一旦、\nCSRでいいかな\nhttps://qiita.com/centerfield77/items/799f2840f48221c2f84d\n"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-16",
+      "body_markdown": "yarn でグローバルにfirebase-toolをインストールする\n\nhttps://qiita.com/kozakura16/items/b215e392dbafdc2b1a96\n\n`yarn global add firebase-tools`"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-17",
+      "body_markdown": "どこでfirestore\nを呼び出すのかを参考に\n\nhttps://github.com/redimpulz/firebase-todo-app",
+      "body_updated_at": "2021-10-17"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-19",
+      "body_markdown": "ビルドしてもディレクトリができなかった。\n\n`next build  && next export`ってbuildと一緒にしてあげないといけないらしい\n\nhttps://zenn.dev/kult/articles/5f5a034f170d61"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-21",
+      "body_markdown": "Next のルーティングについて\nhttps://techblg.app/articles/how-to-transfer-to-different-page-without-link/"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-21",
+      "body_markdown": "フォームのバリデーションなどを簡単に実装するため、chakraでも紹介されていただformilkを使用\n\nhttps://formik.org/docs/overview"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-23",
+      "body_markdown": "ユーザー情報をfirestoreに保存する\nhttps://zenn.dev/phi/articles/firebase-create-user-docment-in-firestore-at-login\n"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-23",
+      "body_markdown": "レイアウトシステムの作り方\n\nhttps://imatomix.com/imatomix/notes/1591872503"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-23",
+      "body_markdown": "https://weseek.co.jp/tech/733/\n\nレイアウト"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-23",
+      "body_markdown": "ユーザー情報をfirestoreに登録するかどうか悩む・・・\nけど、ユーザー情報は一旦、firestoreに入れないようにする？\n入れないなら、Todoの方にuserIdを持たせてそれでfilterするか・・・\nそれかfirestoreに登録するならtodoをuserのサブコレクションにする？\nどっちがいいの・・・"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-24",
+      "body_markdown": "結局useFormを使うことにしたけど、気をつけるところをメモ\nバージョン６では、refの中でregister関数を呼び出しているけど、\nバージョン７ではrefの中で使えなくなっている。\nname属性もいらなくなっているので、気をつけよう\n\nhttps://react-hook-form.com/jp/\nhttps://qiita.com/nakamo-03/items/446a199f076c81d55c70"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-28",
+      "body_markdown": "ルーティング制御？\n\nNuxtのmiddlewareみたいなことしたかったけど、これで行けそう。\nhttps://zenn.dev/catnose99/articles/2169dae14b58b6"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-28",
+      "body_markdown": "ほかにいろんなパターン書いてくれてる記事が。\nhttps://zenn.dev/aiji42/articles/450ce962cc225a"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-29",
+      "body_markdown": "https://zenn.dev/k_kazukiiiiii/articles/1058a988f3fa5a\n\nnextのLinkコンポーネント使ってたら、なんか出てきたので、調べてみた。"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-30",
+      "body_markdown": "Fire baseで\nSsg https://zenn.dev/kult/articles/5f5a034f170d61"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-30",
+      "body_markdown": "状態管理ライブラリを使うのかどうか？\nuseQuery \nuseSWR\nを使う？\n\nRecoilでいい？\n\n\nuseQueryについて\nhttps://reffect.co.jp/react/react-use-query\n"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-30",
+      "body_markdown": "Formのバリデーションについて\n\n6時間40分くらいで話してる内容が興味深い\nhttps://open.spotify.com/episode/5eatMHZKCY1FPWrg5pdLFT?si=3O2292phTT6ogGI-L_I-LQ&context=spotify%3Ashow%3A3vYgBqAzCPvsUputF9u33Y"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-10-30",
+      "body_markdown": "UrIをタイトルの翻訳に変更したい\n\nhttps://morioh.com/p/ce935b917021"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-11-03",
+      "body_markdown": "NextのSSGでFirestore使ったTodoリストで詳細ページをSSGで表示させようとしたら、うまくいかんかった。\n新たに作成されたTodoに対するpathがないのが原因かと、build時にしかpathが用意できないからfirestoreに変更があったらbuildするみたいなことが必要になるのかな？\nとりあえず、SSGでするには実装が複雑になりそうやからCSRに切り替えることにしてみる。\nCSRではuseRouterを使って、queryでtodoのidを渡してあげて、filterするくらいでいいかな〜\nもっといい方法ありそうだけど、とりあえず今はそんな感じでいこう。\nhttps://nextjs.org/docs/api-reference/next/router"
+    }
+  ]
+}

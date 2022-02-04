@@ -1,0 +1,13 @@
+{
+  "title": "サイト作成などに必要な初期設定",
+  "closed": false,
+  "archived": false,
+  "created_at": "2021-11-23",
+  "comments": [
+    {
+      "author": "pei89",
+      "created_at": "2021-11-23",
+      "body_markdown": "https://blog.dododori.com/create/program/browserslistrc/\n\nautoprefixerなどでブラウザの対応などを行うために、ブラウザの指定を行う方法"
+    }
+  ]
+}

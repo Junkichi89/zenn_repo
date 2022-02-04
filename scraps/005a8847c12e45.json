@@ -1,0 +1,18 @@
+{
+  "title": "Next Shopify学習",
+  "closed": false,
+  "archived": false,
+  "created_at": "2021-11-13",
+  "comments": [
+    {
+      "author": "pei89",
+      "created_at": "2021-11-13",
+      "body_markdown": "Udemyのshopifyとnextjsの学習の記録、いつかshopifyについて、記事でまとめたいな\n\nhttps://shopify.dev/graphiql/storefront-graphiql\n\nshopifyをgraphlで使うやつ？\nよくわかってない"
+    },
+    {
+      "author": "pei89",
+      "created_at": "2021-11-13",
+      "body_markdown": "https://shopify.dev/api/storefront/reference\n\nエンドポイントの説明に関するドキュメント"
+    }
+  ]
+}
